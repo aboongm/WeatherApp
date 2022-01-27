@@ -2,6 +2,7 @@ const cityForm = document.querySelector("form");
 const details = document.querySelector(".details");
 const time = document.querySelector(".time");
 const weatherIcon = document.querySelector(".icon img");
+const card = document.querySelector(".card");
 
 // update the city and weather information
 const updateUI = async (data) => {
@@ -15,6 +16,11 @@ const updateUI = async (data) => {
     <span>&deg;C</span>
   </div>
   `;
+
+  // remove the d-none class
+  if (card.classList.contains("d-none")) {
+    card.classList.remove("d-none");
+  }
 
   // update the weather icons
   let iconSrc = `img/icons/${weather.WeatherIcon}.svg`;
