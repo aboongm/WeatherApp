@@ -1,6 +1,7 @@
 const cityForm = document.querySelector("form");
 const details = document.querySelector(".details");
 const time = document.querySelector(".time");
+const weatherIcon = document.querySelector(".icon img");
 
 // update the city and weather information
 const updateUI = async (data) => {
@@ -14,6 +15,10 @@ const updateUI = async (data) => {
     <span>&deg;C</span>
   </div>
   `;
+
+  // update the weather icons
+  let iconSrc = `img/icons/${weather.WeatherIcon}.svg`;
+  weatherIcon.setAttribute("src", iconSrc);
 
   // update the day/night icon
   let timeSrc = weather.IsDayTime ? "img/day.svg" : "img/night.svg";
