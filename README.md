@@ -12,7 +12,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
@@ -23,7 +25,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](https://github.com/aboongm/WeatherApp/blob/github-pages/img/day.svg)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
@@ -35,3 +37,39 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Project Name
+
+> Portfolio: Setup and mobile version skeleton
+
+## Built With
+
+- HTML/CSS
+- Linters - Stylelint, hint and lighthouse
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+Run the following commands on the terminal of your local machine:
+
+- git clone https://github.com/aboongm/Portfolio-setup-and-mobile-version-skeleton.git
+- cd Portfolio-setup-and-mobile-version-skeleton
+
+## Authors
+
+👤 **Ranjit Luwang**
+
+- GitHub: [@aboongm](https://github.com/aboongm)
+- Twitter: [@John_luang1](https://twitter.com/John_luang1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mayengbam-ranjit-luwang-31962418/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
